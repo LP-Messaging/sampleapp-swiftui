@@ -20,7 +20,6 @@
 		A9BCF0F92BE9064D00EAA5C6 /* PButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BCF0EB2BE9064D00EAA5C6 /* PButton.swift */; };
 		A9BCF0FA2BE9064D00EAA5C6 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BCF0ED2BE9064D00EAA5C6 /* ConversationViewController.swift */; };
 		A9BCF0FC2BE9064D00EAA5C6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BCF0EF2BE9064D00EAA5C6 /* ViewModel.swift */; };
-		A9BCF0FD2BE9064D00EAA5C6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9BCF0F12BE9064D00EAA5C6 /* README.md */; };
 		A9BCF1232BEA262D00EAA5C6 /* LPMessagingSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BCF1222BEA262D00EAA5C6 /* LPMessagingSDK.xcframework */; };
 		A9BCF1242BEA262D00EAA5C6 /* LPMessagingSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9BCF1222BEA262D00EAA5C6 /* LPMessagingSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -54,7 +53,6 @@
 		A9BCF0EB2BE9064D00EAA5C6 /* PButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PButton.swift; sourceTree = "<group>"; };
 		A9BCF0ED2BE9064D00EAA5C6 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		A9BCF0EF2BE9064D00EAA5C6 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		A9BCF0F12BE9064D00EAA5C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A9BCF1222BEA262D00EAA5C6 /* LPMessagingSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:M6C39UG9M8:Liveperson Inc."; lastKnownFileType = wrapper.xcframework; name = LPMessagingSDK.xcframework; path = SampleApp/Frameworks/LPMessagingSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +90,6 @@
 			children = (
 				A9BCF0ED2BE9064D00EAA5C6 /* ConversationViewController.swift */,
 				A9BCF0E52BE9064D00EAA5C6 /* MessagingViewController.swift */,
-				A9BCF0F12BE9064D00EAA5C6 /* README.md */,
 				A9BCF0F02BE9064D00EAA5C6 /* ViewModel */,
 				A9BCF0E42BE9064D00EAA5C6 /* Utils.swift */,
 				A9BCF0EC2BE9064D00EAA5C6 /* Views */,
@@ -203,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9BCF0FD2BE9064D00EAA5C6 /* README.md in Resources */,
 				A9BCF0DE2BE9060800EAA5C6 /* Preview Assets.xcassets in Resources */,
 				A9BCF0DB2BE9060800EAA5C6 /* Assets.xcassets in Resources */,
 			);
